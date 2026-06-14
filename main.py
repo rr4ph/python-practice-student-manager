@@ -25,5 +25,8 @@ def removeStudent(file, nameDelete):
         for name in names:
                 file.write(name)
         print("There is no such name in the file.")
+    
+with open("students.txt") as file:
+    names = file.readlines();
 
 
