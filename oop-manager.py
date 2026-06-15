@@ -9,4 +9,6 @@ class studentManager:
         with open(self.filename, "w") as file:
             file.write(self.names)
     
-    
+    def listStudents(self):
+        for index, name in enumerate(self.names, start=1):
+            print(f"{index}: {name}")
