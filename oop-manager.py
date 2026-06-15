@@ -26,3 +26,13 @@ class studentManager:
                 break
         else:
             print("Name not found.")
+
+    def removeStudent(self, name):
+        for index, currentName in enumerate(self.names):
+            if (currentName == name):
+                self.names.pop(index)
+                print("Name has been removed.")
+                self.updateFile()
+                break
+        else:
+            print("Name does not exist.")
