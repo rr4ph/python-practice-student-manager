@@ -4,6 +4,8 @@ A small Python practice project created while refreshing Python fundamentals and
 
 The program stores student names in a text file and supports basic management operations.
 
+Final version features interactive CLI menu.
+
 ## Features
 
 - List students
