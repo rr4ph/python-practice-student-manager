@@ -4,7 +4,7 @@ class studentManager:
         
         with open(self.filename) as file:
             self.names = [name.strip() for name in file.readlines()]
-            print(self.names)
+ 
     
     def updateFile(self):
         with open(self.filename, "w") as file:
@@ -14,3 +14,7 @@ class studentManager:
     def listStudents(self):
         for index, name in enumerate(self.names, start=1):
             print(f"{index}: {name}")
+
+    def addStudent(self, name):
+        self.names.append(name)
+        self.updateFile()
