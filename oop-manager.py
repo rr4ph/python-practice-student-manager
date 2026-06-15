@@ -18,3 +18,11 @@ class studentManager:
     def addStudent(self, name):
         self.names.append(name)
         self.updateFile()
+    
+    def findStudent(self, name):
+        for currentName in self.names:
+            if (currentName == name):
+                print("Name found.")
+                break
+        else:
+            print("Name not found.")
