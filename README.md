@@ -1,6 +1,8 @@
 # Student Manager
 
-A small Python practice project created while refreshing Python fundamentals.
+A small Python practice project created while refreshing Python fundamentals and learning object-oriented programming.
+
+The program stores student names in a text file and supports basic management operations.
 
 ## Features
 
@@ -12,8 +14,17 @@ A small Python practice project created while refreshing Python fundamentals.
 ## Concepts Practiced
 
 - Functions
-- File I/O
 - Lists
 - Loops
-- Enumerate
-- Git branching and merging
+- File I/O
+- Classes and Objects
+- `__init__` and `self`
+- List Comprehensions
+- Git Branching
+- Merging and Rebasing
+
+## Files
+
+- `main.py` - Function-based implementation
+- `oop_manager.py` - Object-oriented implementation
+- `students.txt` - Student data
